@@ -1,7 +1,9 @@
 *{
     margin:0;
     padding:0;
+
 }
+
 .navbar{
     height:75px;
     display:flex;
@@ -25,7 +27,115 @@
     font-size:1.5rem;
     color:chocolate;
 }
+/* hero */
+
 .hero{
     height:600px;
     background-color:cornsilk;
+    display:flex;
+    
 }
+.hero a{
+    text-decoration: none;
+}
+
+.hero-content{
+    margin-left:5%;
+    padding-top:5%;
+    padding-right:150px;
+}
+#Hlo{
+    font-size:1.8rem;
+    
+    
+}
+#name2{
+    font-size:3.5rem;
+    color:black;
+
+}
+#wb{
+    font-size:1.8rem;
+    color:chocolate;
+    padding-top:15px;
+    padding-bottom:20px;
+}
+
+#content{
+     padding-bottom:20px;
+
+}
+.action{
+    display:flex;
+    align-items:center;
+}
+
+.view{
+    height:50px;
+    width:150px;
+    background-color:orange;
+    margin-right:10px;
+    flex-wrap:wrap;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+.border{
+    border-radius: 7%;
+    border: 1px solid orangered;
+}
+
+.Contact{
+    
+    height:50px;
+    width:150px;
+    background-color:white;
+    margin-right:10px;
+    flex-wrap:wrap;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:orange;
+}
+
+.link{
+    margin-top:30px;
+    display:flex;
+    justify-content:space-between;
+    margin-right:40%;
+    
+}
+.link a{
+    border: 4px solid white;
+    background-color:aliceblue;
+    border-radius: 70%;
+    font-size:1.2rem;
+    
+
+}
+
+.link a:hover{
+   color:burlywood;
+}
+    
+
+
+.hero-image{
+    background-image:url("img.jpg");
+    height:500px;
+    width:400px;
+    background-size:contain;
+    margin-top:50px;
+    margin-left:200px;
+    background-color:cornsilk;
+    border: 2px solid white;
+    border-radius:80%;
+    margin-bottom:500px;
+
+}
+
